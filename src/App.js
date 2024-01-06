@@ -87,7 +87,7 @@ function App() {
             <br />
             <div className="flex">
               <div>
-                <button>
+                <button className="mediawidth">
                   <a
                     href="https://github.com/code-with-naeem-solangi"
                     target="_blank"
@@ -97,7 +97,7 @@ function App() {
                 </button>
               </div>
               <div>
-                <button>
+                <button className="mediawidth">
                   <a
                     href="https://vercel.com/m-naeem-solangis-projects"
                     target="_blank"
@@ -135,7 +135,8 @@ function App() {
           <div className="card">
             <DiffTwoTone  className="iconsize" />
             <div className="width">
-              <h1>JAVASCRIPT</h1>
+              <h1>JAVA</h1>
+              <h1>SCRIPT</h1>
               <p>I Am Complete JAVASCRIPT & My Experince Is 8 Months</p>
             </div>
           </div>

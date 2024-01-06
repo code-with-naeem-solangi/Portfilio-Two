@@ -5,6 +5,7 @@ body {
 }
 .mainContainer {
   background-color: antiquewhite;
+  
 }
 .navbar {
   color: blueviolet;
@@ -63,13 +64,13 @@ button > a {
   align-items: center;
 }
 .myimg {
-  width: 35%;
+  width: 40%;
 }
 .text {
   width: 50%;
 }
 .card {
-  width: 30%;
+  width: 25%;
   border-radius: 10px;
   display: flex;
   justify-content: space-around;
@@ -100,11 +101,12 @@ button > a {
   padding-right: 20px;
   padding-top: 20px;
 }
-@media (max-width: 880px){
+@media (max-width: 1000px){
    body{
     margin: 0px;
     padding: 0px;
    }
+   
    .navbar{
     display: none;
    }
@@ -121,7 +123,7 @@ button > a {
     margin: auto;
    }
    .card{
-    width: 50%;
+    width: 70%;
     
     margin-bottom: 20px;
    }
@@ -133,5 +135,16 @@ button > a {
    }
    .pdng{
     padding: 10px;
+   }
+   .flex{
+    display: block;
+    width: 100%;
+   }
+   .mediawidth{
+    width: 50%;
+    margin-top: 20px;
+   }
+   .myimg{
+    width: 100%;
    }
 }
